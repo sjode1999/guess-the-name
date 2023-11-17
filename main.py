@@ -1,5 +1,5 @@
 import random
-
+import sys
 
 
 def Guess_Game():
@@ -27,6 +27,8 @@ def Guess_Game():
     while True:
         Another_attempt = input('Would you like to try again (Y/N): ')
         if Another_attempt.upper() == 'N':
+            break
+        elif Another_attempt.upper() == 'Y':
             break
         else:
             print('Invalid Selection')
