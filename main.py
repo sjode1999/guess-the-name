@@ -1,6 +1,4 @@
 import random
-import sys
-
 
 def Guess_Game():
     print("Welcome to the guessing game")
