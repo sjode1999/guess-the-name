@@ -19,14 +19,12 @@ def Guess_Game():
             break
         elif Guess_Number < Real_Number:
             print("Wrong Answer! Try Higher.")
-        else:
+        elif Guess_Number > Real_Number:
             print("Wrong Answer! Try Lower.")
 
     while True:
         Another_attempt = input('Would you like to try again (Y/N): ')
         if Another_attempt.upper() == 'N':
-            break
-        elif Another_attempt.upper() == 'Y':
             break
         else:
             print('Invalid Selection')
